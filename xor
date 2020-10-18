@@ -11,6 +11,7 @@ int myXOR(int x, int y)
     for (int i = 31; i >= 0; i--)                      
     { 
        // Find current bits in x and y 
+       //declair b1 and b2
        bool b1 = x & (1 << i); 
        bool b2 = y & (1 << i); 
          
